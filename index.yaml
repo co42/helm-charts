@@ -1,0 +1,88 @@
+apiVersion: v1
+entries:
+  apm-server:
+  - apiVersion: v1
+    appVersion: 8.0.0-SNAPSHOT
+    created: "2022-03-07T09:23:36.770721174Z"
+    description: Official Elastic helm chart for Elastic APM Server
+    digest: e12f85cbd4b91be73253cca15ad54e64a8bebab3893f120b1df158f31182ea9d
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/apm.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: apm-server
+    sources:
+    - https://github.com/elastic/apm
+    urls:
+    - https://github.com/co42/helm-charts/releases/download/apm-server-8.0.0-SNAPSHOT/apm-server-8.0.0-SNAPSHOT.tgz
+    version: 8.0.0-SNAPSHOT
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 8.0.0-SNAPSHOT
+    created: "2022-03-07T09:23:36.943886857Z"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: f1e4940190823d56ae4493024525d49dcf3b7eba6351e6f16f82fbfefc1d7761
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://github.com/co42/helm-charts/releases/download/elasticsearch-8.0.0-SNAPSHOT/elasticsearch-8.0.0-SNAPSHOT.tgz
+    version: 8.0.0-SNAPSHOT
+  filebeat:
+  - apiVersion: v1
+    appVersion: 8.0.0-SNAPSHOT
+    created: "2022-03-07T09:23:37.071410971Z"
+    description: Official Elastic helm chart for Filebeat
+    digest: 510fbf66a7792adfcfd167301efb51f567db4aa7fa72cbb0855347b0fb175cb1
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/beats.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: filebeat
+    sources:
+    - https://github.com/elastic/beats
+    urls:
+    - https://github.com/co42/helm-charts/releases/download/filebeat-8.0.0-SNAPSHOT/filebeat-8.0.0-SNAPSHOT.tgz
+    version: 8.0.0-SNAPSHOT
+  kibana:
+  - apiVersion: v1
+    appVersion: 8.0.0-SNAPSHOT
+    created: "2022-03-07T09:23:37.193489789Z"
+    description: Official Elastic helm chart for Kibana
+    digest: 0752fa53b6999810cd57c5852aaba864c11424a04efa7a4843142bf09f243992
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/kibana.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: kibana
+    sources:
+    - https://github.com/elastic/kibana
+    urls:
+    - https://github.com/co42/helm-charts/releases/download/kibana-8.0.0-SNAPSHOT/kibana-8.0.0-SNAPSHOT.tgz
+    version: 8.0.0-SNAPSHOT
+  logstash:
+  - apiVersion: v1
+    appVersion: 8.0.0-SNAPSHOT
+    created: "2022-03-07T09:23:37.308367111Z"
+    description: Official Elastic helm chart for Logstash
+    digest: d4afcd42f3b7cb94f298040f8eb6b9874937242c35b73fed86164d851fa9e453
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/logstash.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: logstash
+    sources:
+    - https://github.com/elastic/logstash
+    urls:
+    - https://github.com/co42/helm-charts/releases/download/logstash-8.0.0-SNAPSHOT/logstash-8.0.0-SNAPSHOT.tgz
+    version: 8.0.0-SNAPSHOT
+generated: "2022-03-07T09:23:37.308484811Z"
